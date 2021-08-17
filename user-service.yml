@@ -7,3 +7,5 @@ spring:
 
 order-service:
   url: http://order-service/%s/orders
+  exception:
+    orders-is-empty: "There is no items"
